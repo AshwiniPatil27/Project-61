@@ -1,0 +1,126 @@
+body {
+    text-align: center;
+    background: linear-gradient(#f2f531 0%, #f75134 100%);
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed; /* to keep the menu fixed on top*/
+    top: 0;
+    width: 100%;
+
+}
+
+li {
+
+    float: right;
+    display: inline;
+    border-left: 1px solid #bbb;
+}
+
+li:last-child {
+    border-left: none;
+}
+
+
+li a {
+    display: block;
+    color:aqua;
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to darkorange on hover */
+li a:hover {
+    background-color:darkorange;
+}
+
+
+.active {
+    background-color: #4CAF50;
+}
+
+
+#profile {
+    border-radius: 50%;
+    width: 200px;
+}
+
+h1 {
+    text-shadow: 3px 3px #F8BBD0;
+    font-size: 30px;
+    font-family: cursive;
+}
+
+p {
+    font-size: 18px;
+    color: black;
+    font-weight: 600;
+}
+
+h2 {
+    font-size: 20px;
+    color: #1A237E;
+}
+
+.line {
+    height: 6px;
+    background-color: #D50000;
+    width: 70px;
+    margin: 8px auto;
+}
+
+#bio {
+    padding: 20px;
+    font-size: 18px;
+    text-align: center;
+    background: coral;
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+button {
+    background-color: chartreuse;
+}
+
+.button a {
+    color: black;
+}
+
+.jj a {
+    color: black;
+}
+
+#picture {
+    transition: transform .2s;
+    border: solid;
+    border-width: 5px;
+    border-color: darkblue;
+    width: 200px;
+    height: 250px;
+}
+
+#picture:hover {
+    transform: scale(0.9);
+}
+
+#MyInspiration {
+    background-color: cornflowerblue;
+}
+
+#contact iframe {
+    width: 100%;
+}
+
+#contact_1 a {
+    color: darkblue;
+    text-shadow: none;
+}
